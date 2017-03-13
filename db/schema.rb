@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20170311170507) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.string   "colour"
-    t.decimal  "price"
+    t.integer  "price"
   end
 
 end
